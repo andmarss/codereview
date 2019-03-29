@@ -1,0 +1,33 @@
+import Vue from 'vue';
+
+import DropdownTrigger from '../../nova/resources/js/components/DropdownTrigger';
+import DropdownMenu from '../../nova/resources/js/components/DropdownMenu';
+import Dropdown from '../../nova/resources/js/components/Dropdown';
+import Accordion from './components/accordion/Index';
+import AccordionItem from './components/accordion/Item';
+import Modal from './components/modal/Index';
+import Overlay from './components/modal/Index';
+import TextField from './components/TextField/TextField';
+import Select from './components/Select/Index';
+import Table from './components/Table/Index';
+import TableRow from './components/Table/TableRow';
+import Tabs from './components/Tabs/Index';
+import Tab from './components/Tabs/Tab';
+import Checkbox from './components/custom-checkbox/Index';
+import Balance from './components/balance/Index';
+
+Vue.component('dropdown', Dropdown);
+Vue.component('dropdown-trigger', DropdownTrigger);
+Vue.component('dropdown-menu', DropdownMenu);
+Vue.component('Accordion', Accordion);
+Vue.component('AccordionItem', AccordionItem);
+Vue.component('Modal', Modal);
+Vue.component('overlay', Overlay);
+Vue.component('TextField', TextField);
+Vue.component('Select', Select);
+Vue.component('Table', Table);
+Vue.component('TableRow', TableRow);
+Vue.component('Tabs', Tabs);
+Vue.component('Tab', Tab);
+Vue.component('Checkbox', Checkbox);
+Vue.component('balance', Balance);
